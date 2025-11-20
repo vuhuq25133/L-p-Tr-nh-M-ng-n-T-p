@@ -9,9 +9,8 @@ public interface ByteService extends Remote {
 ```
 Trong đó:
 
-•	Interface ByteService được viết trong package RMI.
-
-•	Đối tượng cài đặt giao diện từ xa ByteService được đăng ký với RegistryServer với tên là: RMIByteService.
+* Interface ByteService được viết trong package RMI.
+* Đối tượng cài đặt giao diện từ xa ByteService được đăng ký với RegistryServer với tên là: RMIByteService.
 
 ## Yêu cầu: Viết chương trình tại máy trạm (RMI client) để thực hiện các công việc sau với dữ liệu nhị phân nhận được từ RMI Server:
 

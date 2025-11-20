@@ -13,10 +13,10 @@ Một chương trình server cho phép kết nối qua giao thức TCP tại c�
 
 a.	Đối tượng trao đổi là thể hiện của lớp Customer được mô tả như sau
       
-	  •	Tên đầy đủ của lớp: TCP.Customer
-      •	Các thuộc tính: id int, code String, name String, dayOfBirth String, userName String
-      •	Hàm khởi tạo đầy đủ các thuộc tính được liệt kê ở trên
-      •	Trường dữ liệu: private static final long serialVersionUID = 20170711L; 
+	  *	Tên đầy đủ của lớp: TCP.Customer
+      *	Các thuộc tính: id int, code String, name String, dayOfBirth String, userName String
+      *	Hàm khởi tạo đầy đủ các thuộc tính được liệt kê ở trên
+      *	Trường dữ liệu: private static final long serialVersionUID = 20170711L; 
 b.	Tương tác với server theo kịch bản dưới đây:
 	
 	1) Gửi đối tượng là một chuỗi gồm mã sinh viên và mã câu hỏi ở định dạng "studentCode;qCode". Ví dụ: "B15DCCN999;F2DA54F3"

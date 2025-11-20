@@ -9,9 +9,9 @@ public interface CharacterService extends Remote {
 ```
 Trong đó:
 
-  •	Interface CharacterService được viết trong package RMI.
+  *	Interface CharacterService được viết trong package RMI.
     
-  •	Đối tượng cài đặt giao diện từ xa CharacterService được đăng ký với RegistryServer với tên là: RMICharacterService.
+  *	Đối tượng cài đặt giao diện từ xa CharacterService được đăng ký với RegistryServer với tên là: RMICharacterService.
   
 ## Yêu cầu: Viết chương trình tại máy trạm (RMI client) để thực hiện các công việc sau với chuỗi được nhận từ RMI Server:
 

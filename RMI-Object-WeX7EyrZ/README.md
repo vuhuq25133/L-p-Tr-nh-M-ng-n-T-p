@@ -8,15 +8,15 @@ Giao diện từ xa:
         public void submitObject(String studentCode, String qAlias, Serializable object) throws RemoteException;
     }
 ```
-•	Lớp ProductX gồm các thuộc tính id String, code String, discountCode String, discount int.
+*	Lớp ProductX gồm các thuộc tính id String, code String, discountCode String, discount int.
 
 o	Một hàm khởi dựng với đầy đủ các thuộc tính liệt kê ở trên
 
 o	Trường dữ liệu: private static final long serialVersionUID = 20171107;
 
-•	Đối tượng triệu gọi từ xa được đăng ký RegistryServer với tên: RMIObjectService
+*	Đối tượng triệu gọi từ xa được đăng ký RegistryServer với tên: RMIObjectService
 
-•	Tất cả các lớp được viết trong package RMI
+*	Tất cả các lớp được viết trong package RMI
 
 # Yêu cầu là xây dựng một chương trình client thực hiện các tương tác với hệ thống phần mềm ở trên theo kịch bản dưới đây:
 

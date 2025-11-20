@@ -9,9 +9,9 @@ public interface DataService extends Remote {
 ```
 Trong đó:
 
-•	Interface DataService được viết trong package RMI.
+*	Interface DataService được viết trong package RMI.
     
-•	Đối tượng cài đặt giao diện từ xa DataService được đăng ký với RegistryServer với tên là: RMIDataService.
+*	Đối tượng cài đặt giao diện từ xa DataService được đăng ký với RegistryServer với tên là: RMIDataService.
     
 ## Yêu cầu: Viết chương trình tại máy trạm (RMI client) để thực hiện các công việc sau với dữ liệu nhận được từ RMI Server:
 a. Triệu gọi phương thức requestData để nhận một chuỗi các số nguyên.
